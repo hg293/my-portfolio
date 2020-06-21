@@ -14,7 +14,7 @@ class Navigation extends React.Component {
         return (
             <Navbar collapseOnSelect fixed='top' className='color-nav' variant='dark' expand='lg'>
                 <Navbar.Brand
-                    href='https://ap1495.github.io/react-portfolio-app/'
+                    href='https://hg293.github.io/my-portfolio/'
                 >
                     <h1><b>HG</b></h1>
                 </Navbar.Brand>
