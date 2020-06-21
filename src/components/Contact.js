@@ -26,14 +26,24 @@ function Contact() {
             >
                 <Row className={'pt-5'}>
                     <Col xs={12} md={4} className='sub-contact-container'>
-                            <a className='contact-links' href='mailto:aannaappa@buffalo.edu'>
+                            <a className='contact-links' href='mailto:hg293@scarletmail.rutgers.edu'>
                                 <Image
                                     className='contact-logos'
                                     src={email}
                                     rounded
                                 />
-                                 <p>hg293@rutgers.edu<br/>
-                                 hrshthgachar@gmail.com</p>
+                                 <p>hg293@rutgers.edu
+                                 </p>
+                                 
+                            </a><br/>
+                            <a className='contact-links' href='mailto:hrshthgachar@gmail.com'>
+                                <Image
+                                    className='contact-logos'
+                                    src={email}
+                                    rounded
+                                />
+                                 <p>hrshthgachar@gmail.com
+                                 </p>
                                  
                             </a>
                     </Col>
