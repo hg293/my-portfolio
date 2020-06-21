@@ -1,0 +1,206 @@
+.color-nav {
+    background-color: #091717;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.media-body-align {
+    text-align: left;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 576px) {
+    .about-content {
+        font-size: x-large !important;
+    }
+}
+
+.about-content {
+    font-size: large;
+}
+
+.profile-img {
+    height: 520px;
+    width: 350px;
+}
+
+@media screen and (max-width: 576px) {
+    .profile-img {
+        height: 200px;
+        width: 200px;
+    }
+
+
+}
+
+.hr-about {
+    visibility: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .hr-about {
+        visibility: visible;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.about-container {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10rem;
+    /* height: 100vh; */
+    background-color: #FBF9F9;
+}
+
+.section-header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skill-container {
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    .card-container {
+        padding-bottom: 50px;
+        text-align: -webkit-center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sub-contact-container {
+        padding-bottom: 50px;
+        text-align: -webkit-center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .padding-skills-right {
+        padding-right: 50px;
+        text-align: center;
+    }
+    .padding-skills-left {
+        padding-left: 50px;
+        text-align: center;
+    }
+    .padding-skills-top {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .padding-section {
+        text-align: center;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .education-sub-section {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: larger;
+    }
+}
+
+.education-sub-header {
+    font-size: 1.5rem;
+}
+
+.coursework-header {
+    font-size: 1.36rem;
+}
+
+@media screen and (max-width: 768px) {
+    .padding-coursework {
+        padding-bottom: 50px;
+    }
+}
+
+
+.skills-img {
+    height: 110px;
+    width: 165px;
+    padding: 10px;
+}
+
+.card-container {
+    text-align: -webkit-center;
+}
+
+.card {
+    background-color: #EDEDED;
+    border: 1px #EEE;
+    border-radius: 0;
+}
+
+.card-style {
+    width: 75%;
+}
+
+.card-body {
+    color: black;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.experience-container {
+    background-color: #FBF9F9;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+.education-container {
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.contact-container {
+    /* padding-bottom: 10rem; */
+    padding-top: 10rem;
+    text-align: center;
+    background-color: #FBF9F9;
+}
+
+.nav-highlight {
+    font-weight: bolder;
+}
+
+.contact-logos {
+    height: 50px;
+    width: 50px;
+}
+
+.about-contact-logos {
+    height: 35px;
+    width: 35px;
+    padding: 3px;
+}
+
+.contact-links {
+    color: black;
+    font-size: larger;
+}
+
+.copyright-style {
+    color: #D1D1D1;
+    font-size: large;
+}
+
+.padding-copyright {
+    padding-top: 320px;
+    padding-bottom: 10px;
+}
