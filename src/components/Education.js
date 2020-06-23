@@ -43,6 +43,7 @@ function Education() {
                                 <ListGroup.Item>Artificial Implants</ListGroup.Item>
                                 <ListGroup.Item>Fundamentals of Regulatory Affairs</ListGroup.Item>
                                 <ListGroup.Item>Biocontrol Systems</ListGroup.Item>
+                                <ListGroup.Item>Mammalian Physiology</ListGroup.Item>
                             </ListGroup>
                         </Col>
                     </Col>
