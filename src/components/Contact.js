@@ -36,11 +36,11 @@ function Contact() {
                                  </p>
                                  
                             </a><br/>
-                            <a className='contact-links' href='mailto:hrshthgachar@gmail.com'>
+                                <a className='contact-links' href='mailto:hrshthgachar@gmail.com'>
                                 <p>hrshthgachar@gmail.com
                                 </p>
                                  
-                            </a>
+                                </a>
                     </Col>
 
                     <Col xs={12} md={4} className='sub-contact-container'>
@@ -72,7 +72,7 @@ function Contact() {
                             <p>hg293</p>
                         </a>
                     </Col>
-                    
+
                 </Row>
             </ScrollAnimation>
 
