@@ -15,7 +15,7 @@ function Contact() {
                         animateIn='slideInLeft'
                         animateOnce={true}
                     >
-                        <h1><u></u></h1>
+                        <h1><u>Would love to connect!</u></h1>
                     </ScrollAnimation>
                 </Col>
             </Row>
@@ -24,8 +24,10 @@ function Contact() {
                 animateIn='slideInLeft'
                 animateOnce={true}
             >
+
                 <Row className={'pt-5'}>
                     <Col xs={12} md={4} className='sub-contact-container'>
+
                             <a className='contact-links' href='mailto:hg293@scarletmail.rutgers.edu'>
                                 <Image
                                     className='contact-logos'
