@@ -29,7 +29,7 @@ function Experience() {
                     <Col xs={12} md={6} lg={4} className='card-container'>
                         <Card className='card-style'>
                             <a
-                                href='http://www.hassan.rutgers.edu/'
+                                href='http://www.hassan.rutgers.edu/lab_research.html'
                                 target='_blank'
                             >
                                 <Card.Img variant="top" src={university} />

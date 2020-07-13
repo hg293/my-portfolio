@@ -11,7 +11,7 @@ function About() {
         <Container id='About' className='about-container' fluid>
 
             <Row>
-                <Col xs={12}>
+                <Col xs={6}>
                     <Image
                         className='profile-img shadow p-3 bg-white rounded'
                         src={profile}
@@ -19,10 +19,9 @@ function About() {
                         responsive
                     />
                 </Col>
-            </Row>
+            
 
-            <Row  className='pt-4'>
-                <Col xs={{span: 8, offset: 2}}>
+                <Col xs={{span: 6, offset: 2}}>
                     <h3>
                         <b>HARSHITHA GOVINDARAJU</b>
                     </h3>
