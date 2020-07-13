@@ -27,10 +27,16 @@ function Extracurricular(){
                             <b> Dancing </b>
                         </p>
                         <p>
-                            I have always been passionate about dancing ever since I could learn to understand musicality and rythm!</br>
-                            I have been trained under India's premier academy- Shiamak Davar Institute of Performing Arts <br/>
-                            Also a Certified Zumba Instructor
+                         Institution Affiliation
                         </p>
+                        <p>
+                         - Shiamak Davar Institute of Performing Arts
+                        </p>
+                        <p>
+                         - Zumba Fitness, LLC
+                        </p>
+                    </Col>
+                </Row>        
     )
 
 }
