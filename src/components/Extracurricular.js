@@ -36,7 +36,9 @@ function Extracurricular(){
                          - Zumba Fitness, LLC
                         </p>
                     </Col>
-                </Row>        
+                </Row>    
+            </ScrollAnimation>
+        </Container>    
     )
 
 }
