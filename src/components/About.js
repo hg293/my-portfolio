@@ -1,27 +1,33 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import profile from '../pictures/harshitha-g-dp.JPG'
+import profile from '../pictures/hg-profile-dp.jpg'
 import email from '../pictures/email.png'
 import linkedin from '../pictures/linkedin.jfif'
 import github from '../pictures/github.png'
 import '../styles.css'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 function About() {
     return (
         <Container id='About' className='about-container' fluid>
 
             <Row>
-                <Col xs={6}>
+                
+                        
+                <Col md={6} xs={12} className='profile-img'>
+                <ScrollAnimation animateIn='flipInY' duration={10} animateOnce='true'>
                     <Image
-                        className='profile-img shadow p-3 bg-white rounded'
+                        className='profile-img'
                         src={profile}
-                        roundedCircle
                         responsive
                     />
+                </ScrollAnimation>
                 </Col>
-            
+                
 
-                <Col xs={{span: 6, offset: 2}}>
+                
+                <Col md={6} xs={12} className='about-header'>
+                    <ScrollAnimation animateIn='slideInRight' duration={3} animateOnce='true'>
                     <h3>
                         <b>HARSHITHA GOVINDARAJU</b>
                     </h3>
@@ -78,7 +84,9 @@ function About() {
                         {/*<hr className='hr-about'/>
                         <b>Actively seeking full time opportunities in web development beginning in June 2020.</b> */}
                     </p>
+                    </ScrollAnimation>
                 </Col>
+                
             </Row>
 
         </Container>

@@ -10,28 +10,36 @@
 }
 
 .media-body-align {
-    text-align: left;
+    text-align: center;
 }
 
 @media screen and (max-width: 1366px) and (min-width: 576px) {
     .about-content {
         font-size: x-large !important;
+        padding-top: 25px;
     }
 }
 
+.about-header{
+    padding-top: 40px;
+}
 .about-content {
     font-size: large;
+    /* padding-right: 100px; */
+
 }
 
 .profile-img {
-    height: 520px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
 }
 
 @media screen and (max-width: 576px) {
     .profile-img {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
+        align-items: center;
+        text-align: center;
     }
 
 
@@ -53,11 +61,12 @@
 
 .about-container {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 170px;
     padding-bottom: 10rem;
     /* height: 100vh; */
     background-color: #FBF9F9;
 }
+
 
 .section-header {
     text-align: center;
