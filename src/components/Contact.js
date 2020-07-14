@@ -15,13 +15,13 @@ function Contact() {
                         animateIn='slideInLeft'
                         animateOnce={true}
                     >
-                        <h1><u>Would love to connect !</u></h1>
+                        <h1><u>Would love to connect!</u></h1>
                     </ScrollAnimation>
                 </Col>
             </Row>
 
             <ScrollAnimation
-                animateIn='slideInLeft'
+                animateIn='slideInBottom'
                 animateOnce={true}
             >
 

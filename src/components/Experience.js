@@ -13,7 +13,7 @@ function Experience() {
             <Row>
                 <Col className='section-header' xs={12}>
                     <ScrollAnimation
-                        animateIn='slideInLeft'
+                        animateIn='slideInRight'
                         animateOnce={true}
                     >
                         <h1><u>EXPERIENCE</u></h1>
