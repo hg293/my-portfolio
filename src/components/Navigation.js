@@ -13,11 +13,11 @@ class Navigation extends React.Component {
         let Element = Scroll.Element
         return (
             <Navbar collapseOnSelect fixed='top' className='color-nav' variant='dark' expand='lg'>
-                <Navbar.Brand
+                {/* <Navbar.Brand
                     href='https://hg293.github.io/my-portfolio/'
                 >
                     <h1><b>HG</b></h1>
-                </Navbar.Brand>
+                </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='mr-auto'>
