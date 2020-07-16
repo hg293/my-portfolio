@@ -15,13 +15,13 @@ function Contact() {
                         animateIn='slideInLeft'
                         animateOnce={true}
                     >
-                        <h1><u>Would love to connect!</u></h1>
+                        <h1><u>Would love to connect, actively looking for full-time roles!</u></h1>
                     </ScrollAnimation>
                 </Col>
             </Row>
 
             <ScrollAnimation
-                animateIn='slideInBottom'
+                animateIn='wobble'
                 animateOnce={true}
             >
 
@@ -40,6 +40,12 @@ function Contact() {
                             </a><br/>
                                 <a className='contact-links' href='mailto:hrshthgachar@gmail.com'>
                                 <p>hrshthgachar@gmail.com
+                                </p>
+                                 
+                                </a>
+                                <br/>
+                                <a className='contact-links'>
+                                <p>+1(848)-252-1493
                                 </p>
                                  
                                 </a>
